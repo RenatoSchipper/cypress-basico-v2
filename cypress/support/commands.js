@@ -8,6 +8,6 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit', function(){
 
         cy.get('#open-text-area').type('Teste')
        
-       // cy.contains('button', 'Enviar')
-       //     .click()
+        cy.contains('button', 'Enviar')
+            .click()
 })
